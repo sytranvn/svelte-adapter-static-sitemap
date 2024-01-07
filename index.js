@@ -30,7 +30,6 @@ function renderSitemap(urls, opts) {
 /** @param {import('@sveltejs/adapter-static').AdapterOptions & { domain?: string}} options*/
 export default function(options) {
 	const { pages = 'build', fileName = 'sitemap.xml' } = options ?? {}
-	console.log(options)
 	return {
 		name: 'adapter-static-sitemap',
 		async adapt(builder) {

@@ -29,6 +29,6 @@
   "homepage": "https://github.com/sytranvn/svelte-adapter-static-sitemap#readme",
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-static": "^3.0.1"
+    "@sveltejs/adapter-static": "^2.0.3"
   }
 }
