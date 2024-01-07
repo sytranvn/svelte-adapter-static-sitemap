@@ -4,7 +4,7 @@
   "description": "Generate sitemap for Svelte prerendered pages",
   "main": "index.js",
   "scripts": {
-    "test": "npm --workspace test test"
+    "test": "npm --prefix test test"
   },
   "repository": {
     "type": "git",

@@ -27,5 +27,5 @@ test('generates sitemaps', async({page}) => {
 	await page.goto('/sitemap.xml')
 	expect(await page.locator('url').locator('nth=0').locator('loc').textContent()).toEqual('http://localhost:5173/');
 	expect(await page.locator('url').locator('nth=1').locator('loc').textContent()).toEqual('http://localhost:5173/products/car-1');
-	expect(await page.locator('url').locator('nth=1').locator('loc').textContent()).toEqual('http://localhost:5173/products/car-2');
+	expect(await page.locator('url').locator('nth=2').locator('loc').textContent()).toEqual('http://localhost:5173/products/car-2');
 });
