@@ -1,0 +1,30 @@
+{
+  "name": "svelte-adapter-static-sitemap",
+  "version": "1.0.0",
+  "description": "Generate sitemap for Svelte prerendered pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm --workspace test test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sytranvn/svelte-adapter-static-sitemap.git"
+  },
+  "keywords": [
+    "svelte",
+    "svelte-adapter",
+    "svelte-sitemap",
+    "svelte-adapter-static"
+  ],
+  "author": "Sy Tran Dung",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/sytranvn/svelte-adapter-static-sitemap/issues"
+  },
+  "homepage": "https://github.com/sytranvn/svelte-adapter-static-sitemap#readme",
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-static": "^3.0.1"
+  }
+}

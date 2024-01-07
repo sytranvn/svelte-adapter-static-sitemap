@@ -128,9 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-<<<<<<< HEAD
-=======
 build/
 .svelte-kit/
 test-results/
->>>>>>> 1d41632 (feat: sitemap)
