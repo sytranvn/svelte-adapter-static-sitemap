@@ -1,6 +1,6 @@
 {
   "name": "svelte-adapter-static-sitemap",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate sitemap for Svelte prerendered pages",
   "main": "index.js",
   "files": [
